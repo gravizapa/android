@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/backgroung_img">
+
+    <PreferenceCategory
+        android:title="Color settings">
+
+        <ListPreference
+            android:key="text_style"
+            android:title="Text Color"
+            android:summary="Set text color"
+            android:defaultValue="1"
+            android:entries="@array/text_style"
+            android:entryValues="@array/text_style"
+            android:dialogTitle="Select your text color" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
